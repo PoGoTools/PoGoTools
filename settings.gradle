@@ -1,1 +1,1 @@
-include ':app', ':pokescreenshot', ':processing', ':debug-app'
+include ':goiv', ':pokescreenshot', ':processing', ':debug-app'
