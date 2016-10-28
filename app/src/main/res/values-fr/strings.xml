@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_message">Instructions :\n1. Entrer niveau de dresseur\n2. Presser bouton GO et permettre capture d\'écran\n3. Choisir un Pokémon dans \'Pokémon Go\'\n4. Presser bouton IV pour scanner le Pokémon\n5. Ajuster données si besoin\n6. Vérifier les IV !</string>
+    <string name="goiv_is_open_source">GoIV est open source !\ngithub.com/farkam135/GoIV\nreddit.com/r/GoIV</string>
+    <string name="trainer_level">Niveau de Dresseur</string>
+    
+    <string-array name="teams">
+        <item name="mystic">"Sagesse"</item>
+        <item name="valor">"Bravoure"</item>
+        <item name="instinct">"Intuition"</item>
+    </string-array>
+    <string name="place1">"Dans l'ensemble, ton Pokémon…"</string>
+    <string name="place2">"Ses stats…"</string>
+
+    <string-array name="mystic_percentage">
+        <item name="mplace1">@string/place1</item>
+        <item name="mystic80_100">"Est une merveille… captivant !"</item>
+        <item name="mystic67_79">…toute mon attention."</item>
+        <item name="mystic51_66">"…supérieur à la moyenne."</item>
+        <item name="mystic0_50">"N'ira pas très loin…"</item>
+    </string-array>
+
+    <string-array name="mystic_ivrange">
+        <item name="mplace2">@string/place2</item>
+        <item name="mysticiv15">"Dépassent tous mes calculs… !"</item>
+        <item name="mysticiv13_14">"Je suis impressionnée…"</item>
+        <item name="mysticiv8_12">"S'améliorent à vue d'œil."</item>
+        <item name="mysticiv0_7">"N'ont rien d'anormal."</item>
+    </string-array>
+
+    <string-array name="valor_percentage">
+        <item name="vplace1">@string/place1</item>
+        <item name="valor80_100">"M'étonne beaucoup… tout faire."</item>
+        <item name="valor67_79">"…très fort, …être fier."</item>
+        <item name="valor51_66">"…un Pokémon solide."</item>
+        <item name="valor0_50">"…pas un combattant."</item>
+    </string-array>
+
+    <string-array name="valor_ivrange">
+        <item name="vplace2">@string/place2</item>
+        <item name="valoriv15">"…estomaquée… Bravo !"</item>
+        <item name="valoriv13_14">"Sont excellentes ! …super !"</item>
+        <item name="valoriv8_12">"…va faire des dégâts au combat."</item>
+        <item name="valoriv0_7">"Ne t'aideront pas beaucoup…"</item>
+    </string-array>
+
+    <string-array name="instinct_percentage">
+        <item name="iplace1">@string/place1</item>
+        <item name="instinct80_100">"…tenir tête aux meilleurs."</item>
+        <item name="instinct67_79">"…vraiment fort."</item>
+        <item name="instinct51_66">"…plutôt bien."</item>
+        <item name="instinct0_50">"Peut devenir… meilleur…"</item>
+    </string-array>
+
+    <string-array name="instinct_ivrange">
+        <item name="iplace2">@string/place2</item>
+        <item name="instinctiv15">"…meilleures que j'ai jamais vues !"</item>
+        <item name="instinctiv13_14">"…super élevées. Impressionnant !"</item>
+        <item name="instinctiv8_12">"…quelques bonnes stats."</item>
+        <item name="instinctiv0_7">"…un peu basiques."</item>
+    </string-array>
+    
+    <string name="pokemon_name">Nom du Pokémon :</string>
+    <string name="cp">PC</string>
+    <string name="hp">PV</string>
+    <string name="use_the_slider_below_to_align_the_arc">Déplacer le curseur pour aligner l\'arc</string>
+    <string name="cancel">Annuler</string>
+    <string name="check_iv">Obtenir IV</string>
+    <string name="notification_title">GoIV Actif - Niveau %1$d</string>
+    <string name="notification_open_app">Ouvrir l\'app</string>
+    <string name="close">Fermer</string>
+    <string name="main_permission">Accorder permissions</string>
+    <string name="main_start">GO</string>
+    <string name="main_starting">Lancement…</string>
+    <string name="main_stop">Arrêt</string>
+    <string name="back">Retour</string>
+    <string name="accept_screen_capture">Accepter lecture d\'écran</string>
+    <string name="settings_page_title">Paramètres</string>
+    <string name="launch_pokemon_go_setting_title">Lancer Pokemon Go</string>
+    <string name="launch_pokemon_go_setting_summary">Ouvrir Pokémon Go quand le bouton GO est cliqué</string>
+    <string name="confirmation_dialog_setting_title">Fenêtre de confirmation</string>
+    <string name="confirmation_dialog_setting_summary">Permettre l\'édition des infos du Pokémon avant de calculer les IV</string>
+    <string name="manual_screenshot_mode_setting_title">Utiliser des captures d\'écran</string>
+    <string name="manual_screenshot_mode_setting_summary">Économiser la batterie en scannant des captures d\'écran au lieu de l\'auto-détection. Ce paramètre doit être activé pour les versions Android KitKat et antérieures</string>
+    <string name="delete_screenshots_setting_title">Effacer captures d\'écran</string>
+    <string name="delete_screenshots_setting_summary">Effacer automatiquement les captures d\'écran prises par GoIV</string>
+    <string name="copy_to_clipboard_setting_title">Copier vers presse-papier</string>
+    <string formatted="false" name="copy_to_clipboard_setting_summary">Copier pire IV% - meilleur IV% vers le presse-papier quand le bouton \'Obtenir IV\' est cliqué</string>
+    <string name="send_crash_reports_setting_title">Envoyer rapports de plantage</string>
+    <string name="send_crash_reports_setting_summary">Aider les développeurs à améliorer l\'application en leur envoyant des données de plantage de façon anonyme</string>
+    <string name="auto_update_setting_title">Mises à jour automatiques</string>
+    <string name="auto_update_setting_summary">Vérifier automatiquement si des mises à jour sont disponibles au démarrage de l\'application</string>
+    <string name="check_for_update_setting_title">Chercher mise à jour</string>
+    <string name="check_for_update_setting_summary">Vérifier si une mise à jour est disponible maintenant</string>
+    <string name="scan_pokemon_failed">Échec du scan, veuillez défiler vers le haut et ré-essayer !</string>
+    <string name="see_all">Tout voir</string>
+    <string name="advanced_information">Infos d\'évolution et rechargement</string>
+    <string name="powerup_calc_instructions">Calcul d\'évolution et rechargement\nDéplacer le curseur pour différentes prédictions</string>
+    <string name="candy_cost">Coût en Bonbons</string>
+    <string name="stardust_cost">Coût en Poussière</string>
+    <string name="evolution">Évolution</string>
+    <string name="level">Niveau</string>
+    <string name="level_num">Niveau %1$.1f</string>
+    <string name="refine">Raffiner</string>
+    <string name="refine_no_progress">Le raffinement n\'a pas amélioré les résultats</string>
+    <string name="last_scan">Dernier scan : %1$s</string>
+    <string name="possible_iv_combinations">"%1$d combi. d\'IV possibles"</string>
+    <string name="too_many_iv_combinations">Trop de combinaisons d\'IV</string>
+    <string name="refining_instructions">Améliorer la précision du calcul d\'IV en rechargeant le Pokémon puis en comparant deux scans</string>
+    <string name="appraisal_refining">Raffiner via \'Évaluer\'</string>
+    <string name="attack">Attaque</string>
+    <string name="defense">Défense</string>
+    <string name="stamina_hp">PV</string>
+    <string name="missing_inputs">PC et PV requis.</string>
+    <string name="ivtext_no_possibilities">Aucune combinaison d\'IV possible pour ces données. Veuillez vérifier les informations.</string>
+    <string name="checking_for_update">Recherche de mise à jour…</string>
+    <string name="ongoing_update">Une mise à jour de GoIV est déjà en cours de téléchargement</string>
+    <string name="up_to_date">L\'appli est à jour</string>
+    <string name="update_check_failed">Erreur pendant la recherche de mise à jour. Veuillez vérifier votre connexion internet</string>
+    <string name="iv_perfect" formatted="false">% Parfait</string>
+    <string name="wrong_pokemon_name_input">" n'a pas été trouvé."</string>
+    <string name="avg">MOY</string>
+    <string name="atk">ATQ</string>
+    <string name="def">DÉF</string>
+    <string name="sta">PV</string>
+    <string name="hp_expanded_box">PV</string>
+    <string name="cp_vs_iv" formatted="false">% PC vs IV max</string>
+    <string name="alert_explanation_title">Explications</string>
+    <string name="perfection_explainer" formatted="false">"Le pourcentage correspond à la différence entre les PC de votre Pokémon, et ceux d'un Pokémon de la même espèce qui aurait des IV parfaites.\n\nPar exemple, si le pourcentage est 92%, alors votre Pokémon a 8% de PC en moins que s'il avait des IV parfaites."</string>
+    <string name="pokespam">PokéSpam</string>
+    <string name="pokespam_formatted_message">%1$d (%2$d lignes + %3$d)</string>
+    <string name="candy">Bonbons</string>
+    <string name="pokespam_not_available">Indisponible</string>
+    <string name="pokespam_setting_title">Activer le calcul de PokéSpam</string>
+    <string name="pokespam_setting_summary">Scanne le nombre de bonbons pour calculer combien de Pokémon vous pouvez faire évoluer ; utile pour prévoir quand utiliser un œuf chance</string>
+</resources>

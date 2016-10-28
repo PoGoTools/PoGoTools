@@ -1,1 +1,1 @@
-include ':pokescreenshot', ':processing', ':debug-app'
+include ':app', ':pokescreenshot', ':processing', ':debug-app'
